@@ -1,0 +1,43 @@
+.container {
+    background-color: black;
+    display: grid;
+    grid-gap: 5px 10px;
+    grid-template-areas:
+    "header header header"
+    "aside content content"
+    "footer footer footer"
+
+}
+
+.style {
+    background-color: blue;
+    margin: 5px;
+   
+}
+
+.header {
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside {
+    padding-left: 20px;
+    padding-right: 20px;
+    grid-area: aside;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer: {
+    grid-area: footer;
+}
+.box{
+    background-color: yellow;
+}
